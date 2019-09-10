@@ -15,6 +15,7 @@
 		AA1FBCF2232385CB0033877C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FBCF1232385CB0033877C /* main.m */; };
 		AA1FBCFB232386A20033877C /* KPCarshManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FBCFA232386A20033877C /* KPCarshManager.m */; };
 		AA1FBCFE232389490033877C /* KPCarshLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FBCFD232389490033877C /* KPCarshLog.m */; };
+		AA5E700A2327B7C9003CCD65 /* KPDebugCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E70062327B7C9003CCD65 /* KPDebugCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,9 @@
 		AA1FBCFA232386A20033877C /* KPCarshManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPCarshManager.m; sourceTree = "<group>"; };
 		AA1FBCFC232389490033877C /* KPCarshLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPCarshLog.h; sourceTree = "<group>"; };
 		AA1FBCFD232389490033877C /* KPCarshLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPCarshLog.m; sourceTree = "<group>"; };
+		AA5E70062327B7C9003CCD65 /* KPDebugCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPDebugCheck.m; sourceTree = "<group>"; };
+		AA5E70072327B7C9003CCD65 /* KPCheckisDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPCheckisDebug.h; sourceTree = "<group>"; };
+		AA5E70092327B7C9003CCD65 /* KPDebugCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPDebugCheck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				AA1FBCE1232385C90033877C /* KpengCrashRecord */,
+				AA5E70052327B7C9003CCD65 /* KPCheckisDebug */,
 				AA1FBCE0232385C90033877C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +92,16 @@
 				AA1FBCFD232389490033877C /* KPCarshLog.m */,
 			);
 			path = KpengCrashRecord;
+			sourceTree = "<group>";
+		};
+		AA5E70052327B7C9003CCD65 /* KPCheckisDebug */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E70092327B7C9003CCD65 /* KPDebugCheck.h */,
+				AA5E70062327B7C9003CCD65 /* KPDebugCheck.m */,
+				AA5E70072327B7C9003CCD65 /* KPCheckisDebug.h */,
+			);
+			path = KPCheckisDebug;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +177,7 @@
 				AA1FBCE7232385C90033877C /* ViewController.m in Sources */,
 				AA1FBCF2232385CB0033877C /* main.m in Sources */,
 				AA1FBCFB232386A20033877C /* KPCarshManager.m in Sources */,
+				AA5E700A2327B7C9003CCD65 /* KPDebugCheck.m in Sources */,
 				AA1FBCFE232389490033877C /* KPCarshLog.m in Sources */,
 				AA1FBCE4232385C90033877C /* AppDelegate.m in Sources */,
 			);
